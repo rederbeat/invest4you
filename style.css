@@ -1,0 +1,301 @@
+.header {
+    background-color: rgb(0, 0, 0);
+    opacity: 100%;
+    color: rgb(41, 41, 41);
+    padding: 20px;
+    position: fixed;
+    
+    left: 0;
+    right: 0;
+    top: 0;
+    
+}
+
+.header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 0px;
+    background-size: 200px;
+    height: 50px;
+    width: 180px;
+    background-repeat: none;
+    background-image: url('INVEST4YOUtranssss.png');
+
+
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.navigation ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 10px 30px;
+    transition: all 0.2s linear;
+    border-radius: 2px;
+    
+
+}
+
+.navigation ul li a:hover {
+    background: rgb(255, 145, 0);
+    color: rgb(0, 0, 0);
+    
+}
+
+.main {
+    padding-top: 10px;
+    
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 60%;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;   /*FIJAR FOOTER A LOS BORDES Y ABAJO*/
+    right: 0px;
+    left: 0px;
+
+}
+
+.fotoheader {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) , rgb(156, 156, 156));
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    width: 1920px;
+    height: 720px;
+    opacity: 100%;
+    
+    
+    
+}
+.container2 {
+    max-width: 80%;
+    background-color: rgb(0, 0, 0, 50%);
+    opacity: 100%;
+    margin: 7%;
+    position: absolute;
+    
+    top: 3%;
+    left: 0%;
+    right: 0%;
+    justify-content: center;
+}
+
+p {
+    
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    margin: 1.5%;
+
+}
+.amarillo {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 223, 44);
+    font-size: 1.9rem;
+    margin: 1.5%;
+    font-weight: bold;
+    text-align: center;
+
+} 
+h2 {
+    
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0em;
+    color: white;
+}
+
+.tradingview-widget-container {
+    margin-top: 2%;
+    
+}
+
+.tdv{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2%;
+    letter-spacing: 7px;
+}
+.gr {
+    display: block;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 2px;
+    background: rgb(255, 219, 58);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+    width: 5rem;
+}
+
+.user {
+    background-image: url(descarga.png);
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.ptexto {
+    color: black;
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8em;
+    color: white;
+}
+
+.gridd {
+    text-align: center;
+    text-decoration: none;
+    
+    
+    
+}
+
+.grid {
+    display: inline-block;
+    background-color: rgb(255, 187, 0);
+    font-family: 'Montserrat', sans-serif;
+    padding: 7px;
+    margin: 7px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.8rem;
+    transition: 0.4s;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.grid:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+#negro {
+    background-color: black;
+    
+}
+
+
+#titulito {
+    margin-top: 10%;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.gridcasero {
+    text-align: center;
+}
+
+#gridc {
+    
+    display: inline-block;
+    background-color: rgb(255, 187, 0);
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    margin: 7px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+#gridc:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.footer2 {     /*footer pagina splash*/
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-weight: bold;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 60%;
+    margin-bottom: 0%;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;   /*FIJAR FOOTER A LOS BORDES Y ABAJO*/
+    right: 0px;
+    left: 0px;
+
+}
+
+#particles-js {
+    
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+    width: 20000px;
+    height: 1500px;
+  }
+
+
+.container2splash {
+    position: absolute;
+    top: 15%;
+    justify-content: space-between;     /*centrado*/
+    left: 20%;                          /*centrado*/
+    right: 20%;                         /*centrado*/
+    
+    
+}
+
+.formulario {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+.formulario2 {
+    text-align: center;
+    
+}
